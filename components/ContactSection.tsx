@@ -133,7 +133,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Phone Number</p>
-                  <p className="text-muted-foreground">+1 (555) 123-4567</p>
+                  <p className="text-muted-foreground">683637561</p>
                 </div>
               </motion.div>
 
@@ -149,9 +149,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Location</p>
-                  <p className="text-muted-foreground">
-                    San Francisco, CA, USA
-                  </p>
+                  <p className="text-muted-foreground">Yaounde,Cameroon</p>
                 </div>
               </motion.div>
             </div>
