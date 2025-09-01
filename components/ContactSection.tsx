@@ -1,29 +1,10 @@
 "use client";
 
-import { motion } from "motion/react";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "./ui/card";
-import { Button } from "./ui/button";
-import { Input } from "./ui/input";
-import { Textarea } from "./ui/textarea";
-import { EnvelopeSimple, Phone, MapPin, PaperPlaneTilt } from "phosphor-react";
-import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { motion } from "motion/react";
+import { EnvelopeSimple, MapPin, Phone } from "phosphor-react";
+import { useForm } from "react-hook-form";
 import { z } from "zod";
-import {
-  Form,
-  FormControl,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from "./ui/form";
-import { toast } from "sonner";
 
 const contactSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
@@ -35,7 +16,7 @@ const contactSchema = z.object({
 type ContactFormData = z.infer<typeof contactSchema>;
 
 export function ContactSection() {
-  const form = useForm<ContactFormData>({
+  /*const form = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
     defaultValues: {
       name: "",
@@ -43,9 +24,9 @@ export function ContactSection() {
       subject: "",
       message: "",
     },
-  });
+  }); */
 
-  const onSubmit = async (data: ContactFormData) => {
+  /* const onSubmit = async (data: ContactFormData) => {
     try {
       // Simulate form submission
       await new Promise((resolve) => setTimeout(resolve, 1000));
@@ -55,7 +36,7 @@ export function ContactSection() {
     } catch (error) {
       toast.error("Failed to send message. Please try again.");
     }
-  };
+  }; */
 
   return (
     <section className="py-24 px-6 bg-card/30" id="contact">

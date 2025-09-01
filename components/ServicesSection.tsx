@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "motion/react";
+import { Code, Database, DeviceMobile, Gear, PaintBrush } from "phosphor-react";
 import {
   Card,
   CardContent,
@@ -8,14 +9,6 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card";
-import {
-  Code,
-  ShoppingCart,
-  PaintBrush,
-  DeviceMobile,
-  Database,
-  Gear,
-} from "phosphor-react";
 
 const services = [
   {
@@ -61,13 +54,13 @@ const services = [
   },
 ];
 
-const stats = [
+/* const stats = [
   { number: "150+", label: "Happy Clients", icon: "😊" },
   { number: "5.5k", label: "Followers", icon: "👥" },
   { number: "15+", label: "Years Experience", icon: "📅" },
-  { number: "850+", label: "Total Projects", icon: "🚀" },
+  { number: "850+", label: "Total Projects", icon: "🚀" }, 
 ];
-
+*/
 export function ServicesSection() {
   return (
     <section className="py-24 px-6" id="services">

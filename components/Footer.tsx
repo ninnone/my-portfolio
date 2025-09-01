@@ -1,18 +1,15 @@
 "use client";
 
 import { motion } from "motion/react";
+import {
+  ArrowUp,
+  EnvelopeSimple,
+  GithubLogo,
+  InstagramLogo,
+  LinkedinLogo,
+} from "phosphor-react";
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
-import {
-  GithubLogo,
-  LinkedinLogo,
-  InstagramLogo,
-  TwitterLogo,
-  FacebookLogo,
-  WhatsappLogo,
-  EnvelopeSimple,
-  ArrowUp,
-} from "phosphor-react";
 
 const socialLinks = [
   {

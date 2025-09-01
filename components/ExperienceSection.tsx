@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "motion/react";
+import { Buildings, CalendarBlank, CheckCircle } from "phosphor-react";
+import { Badge } from "./ui/badge";
 import {
   Card,
   CardContent,
@@ -8,8 +10,6 @@ import {
   CardHeader,
   CardTitle,
 } from "./ui/card";
-import { Badge } from "./ui/badge";
-import { CalendarBlank, Buildings, Users, CheckCircle } from "phosphor-react";
 
 const experiences = [
   {

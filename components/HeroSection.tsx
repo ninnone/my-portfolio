@@ -1,17 +1,10 @@
 "use client";
 
+import { LucideMail } from "lucide-react";
 import { motion } from "motion/react";
-import {
-  GithubLogo,
-  InstagramLogo,
-  LinkedinLogo,
-  TwitterLogo,
-} from "phosphor-react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
-import { Button } from "./ui/button";
-import { LucideMail, LucideX } from "lucide-react";
-import { FaXTwitter } from "react-icons/fa6";
 import Link from "next/link";
+import { GithubLogo, InstagramLogo, LinkedinLogo } from "phosphor-react";
+import { Button } from "./ui/button";
 
 export function HeroSection() {
   return (

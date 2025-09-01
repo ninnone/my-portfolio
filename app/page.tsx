@@ -1,16 +1,15 @@
 "use client";
-import { useState, useEffect } from "react";
-import { List, X, MoonStars, Sun } from "phosphor-react";
-import { motion } from "motion/react";
-import { Button } from "@/components/ui/button";
-import HeroSection from "@/components/HeroSection";
-import { ServicesSection } from "@/components/ServicesSection";
-import { ProjectsSection } from "@/components/ProjectsSection";
-import { CompanyLogos } from "@/components/CompanyLogos";
-import { ExperienceSection } from "@/components/ExperienceSection";
 import { ContactSection } from "@/components/ContactSection";
+import { ExperienceSection } from "@/components/ExperienceSection";
 import { Footer } from "@/components/Footer";
+import HeroSection from "@/components/HeroSection";
+import { ProjectsSection } from "@/components/ProjectsSection";
+import { ServicesSection } from "@/components/ServicesSection";
+import { Button } from "@/components/ui/button";
 import { Toaster } from "@/components/ui/sonner";
+import { motion } from "motion/react";
+import { List, MoonStars, Sun, X } from "phosphor-react";
+import { useEffect, useState } from "react";
 
 export default function Page() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
