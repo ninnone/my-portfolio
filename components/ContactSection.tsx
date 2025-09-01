@@ -86,14 +86,14 @@ export function ContactSection() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: 0.1 }}
                 viewport={{ once: true }}
-                className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:shadow-md transition-all duration-300"
+                className="flex flex-col md:flex-row  item-start md:items-center gap-4 p-4 rounded-xl bg-card border border-border hover:shadow-md transition-all duration-300"
               >
                 <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center">
                   <EnvelopeSimple className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Email Address</p>
-                  <p className="text-muted-foreground">
+                  <p className="text-muted-foreground ">
                     donfackninnone8@gmail.com
                   </p>
                 </div>

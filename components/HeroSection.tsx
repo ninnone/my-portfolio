@@ -11,8 +11,8 @@ export function HeroSection() {
     <section className="min-h-screen flex items-center justify-center px-6 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent/5 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-accent/5 rounded-full blur-3xl" />
       </div>
 
       <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center relative z-10">
@@ -35,7 +35,7 @@ export function HeroSection() {
               </span>
             </div>
 
-            <div className="space-y-2">
+            <div className="space-y-2 w-full">
               <h1 className="text-6xl lg:text-7xl font-bold leading-none">
                 Donfack <span className="gradient-text">Robine</span>
               </h1>
@@ -133,13 +133,7 @@ export function HeroSection() {
             transition={{ duration: 1, ease: "easeOut", delay: 0.4 }}
             className="relative"
           >
-            <div className="relative w-96 h-96 lg:w-[480px] lg:h-[480px]">
-              {/* <ImageWithFallback
-                src="https://images.unsplash.com/photo-1731951039706-0e793240bb32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkZXZlbG9wZXIlMjBwb3J0cmFpdCUyMG1hbGV8ZW58MXx8fHwxNzU2MjMzMzQ2fDA&ixlib=rb-4.1.0&q=80&w=1080"
-                alt="James Adams - Software Developer"
-                className="w-full h-full object-cover rounded-3xl"
-              />
- */}
+            <div className="relative max-w-[96] h-96 lg:w-[480px] lg:h-[480px]">
               <img
                 src="robine.jpg"
                 alt="me"
