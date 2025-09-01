@@ -2,7 +2,6 @@
 
 import { motion } from "motion/react";
 import { EnvelopeSimple, MapPin, Phone } from "phosphor-react";
-import { z } from "zod";
 
 /* const contactSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
