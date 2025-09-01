@@ -68,7 +68,7 @@ export default function Page() {
               whileHover={{ scale: 1.05 }}
               className="font-bold text-2xl text-foreground"
             >
-              <span className="gradient-text">DARN_DEV</span>
+              <span className="gradient-text">Robine</span>
             </motion.div>
 
             {/* Desktop Navigation */}
