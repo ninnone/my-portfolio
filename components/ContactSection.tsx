@@ -1,20 +1,18 @@
 "use client";
 
-import { zodResolver } from "@hookform/resolvers/zod";
 import { motion } from "motion/react";
 import { EnvelopeSimple, MapPin, Phone } from "phosphor-react";
-import { useForm } from "react-hook-form";
 import { z } from "zod";
 
-const contactSchema = z.object({
+/* const contactSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
   email: z.string().email("Please enter a valid email address"),
   subject: z.string().min(5, "Subject must be at least 5 characters"),
   message: z.string().min(10, "Message must be at least 10 characters"),
-});
+}); */
 
-type ContactFormData = z.infer<typeof contactSchema>;
-
+/* type ContactFormData = z.infer<typeof contactSchema>;
+ */
 export function ContactSection() {
   /*const form = useForm<ContactFormData>({
     resolver: zodResolver(contactSchema),
@@ -50,16 +48,16 @@ export function ContactSection() {
         >
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 border border-primary/20 mb-6">
             <span className="text-primary text-sm font-medium">
-              Hello, I'm Robine
+              {"Hello, I'm Robine"}
             </span>
           </div>
           <h2 className="text-5xl font-bold text-foreground mb-6">
             Donfack <span className="gradient-text">Robine</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Passionate about creating exceptional digital experiences through
-            innovative web solutions. Specializing in modern technologies and
-            scalable applications that drive business growth.
+            {
+              "Passionate about creating exceptional digital experiences through innovative web solutions. Specializing in modern technologies and scalable applications that drive business growth."
+            }
           </p>
         </motion.div>
 
@@ -77,9 +75,9 @@ export function ContactSection() {
                 Get In Touch
               </h3>
               <p className="text-muted-foreground mb-8 leading-relaxed text-lg">
-                Have a project in mind? I'm always excited to discuss new
-                opportunities and challenges. Let's create something amazing
-                together.
+                {
+                  "Have a project in mind? I'm always excited to discuss new opportunities and challenges. Let's create something amazing together."
+                }
               </p>
             </div>
 

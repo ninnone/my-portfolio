@@ -31,7 +31,7 @@ export function HeroSection() {
           >
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 border border-primary/20">
               <span className="text-primary text-sm font-medium">
-                Hello, I'm Robine
+                {"Hello, I'm Robine"}
               </span>
             </div>
 
@@ -40,7 +40,7 @@ export function HeroSection() {
                 Donfack <span className="gradient-text">Robine</span>
               </h1>
               <p className="text-xl text-muted-foreground font-medium">
-                I'm a FrontEnd Web Developer
+                {"I'm a FrontEnd Web Developer"}
               </p>
             </div>
           </motion.div>
