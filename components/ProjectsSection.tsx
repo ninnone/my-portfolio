@@ -236,7 +236,7 @@ export function ProjectsSection() {
               </span>
             </div>
             <h2 className="text-5xl font-bold text-foreground mb-4">
-              Our Projects
+              My Projects
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl">
               A collection of my recent work showcasing various technologies and
