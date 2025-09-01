@@ -20,7 +20,7 @@ const experiences = [
     location: "Douala, Cameroon",
     type: "Internship",
     description:
-      "Assisted in building and maintaining user interfaces for fintech web applications, collaborating with senior developers to deliver high-quality features.",
+      "Assisted in building and maintaining user interfaces for tech and e-commerce  web applications, collaborating with senior developers to deliver high-quality features.",
     achievements: [
       "Developed reusable React components for dashboard modules",
       "Improved UI responsiveness and accessibility across devices",
@@ -30,9 +30,11 @@ const experiences = [
       "React",
       "TypeScript",
       "Tailwind CSS",
-      "Redux",
-      "Axios",
-      "Figma",
+      "next.js",
+      "HTML",
+      "CSS",
+      "Git",
+      "Vercel",
     ],
   },
   {
@@ -45,18 +47,18 @@ const experiences = [
     description:
       "Delivering custom web solutions for small businesses, focusing on scalable architecture and modern design practices.",
     achievements: [
-      "Built and deployed e-commerce platforms for multiple clients",
-      "Automated business workflows using serverless functions",
-      "Implemented secure authentication and payment integrations",
-      "Provided ongoing maintenance and technical support",
+      "Built a restaurant website  for multiple clients",
+      "Built a todo list to manage tasks and time efficiently",
     ],
     technologies: [
       "Next.js",
-      "Node.js",
-      "MongoDB",
+      "Typescript",
+      "Git",
       "Vercel",
-      "Stripe API",
-      "SASS",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
     ],
   },
 ];

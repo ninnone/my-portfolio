@@ -156,7 +156,7 @@ export function ContactSection() {
           </motion.div>
 
           {/* Contact Form */}
-          <motion.div
+          {/*  <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
@@ -185,7 +185,7 @@ export function ContactSection() {
                             <FormLabel>Full Name</FormLabel>
                             <FormControl>
                               <Input
-                                placeholder="John Doe"
+                                placeholder="Your Name"
                                 className="bg-background border-border rounded-xl h-12"
                                 {...field}
                               />
@@ -202,7 +202,7 @@ export function ContactSection() {
                             <FormLabel>Email Address</FormLabel>
                             <FormControl>
                               <Input
-                                placeholder="john@example.com"
+                                placeholder="Your Email address "
                                 type="email"
                                 className="bg-background border-border rounded-xl h-12"
                                 {...field}
@@ -271,7 +271,7 @@ export function ContactSection() {
                 </Form>
               </CardContent>
             </Card>
-          </motion.div>
+          </motion.div> */}
         </div>
       </div>
     </section>

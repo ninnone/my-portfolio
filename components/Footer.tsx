@@ -81,9 +81,8 @@ export function Footer() {
               </h3>
               <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
                 Passionate about creating exceptional digital experiences
-                through innovative web solutions. Specializing in modern
-                technologies and scalable applications that drive business
-                growth.
+                through innovative web solutions. Specializing in frontend
+                development that drive business growth.
               </p>
               <div className="flex items-center gap-2 text-muted-foreground">
                 <EnvelopeSimple className="h-4 w-4" />
